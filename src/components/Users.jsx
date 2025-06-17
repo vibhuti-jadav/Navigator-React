@@ -21,7 +21,7 @@ const Users = ({friend,list}) => {
 
   return (
     <Container>
-      <Row className="row-cols-4 g-3 mt-5 justify-content-center">
+      <Row className="row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 mt-5 justify-content-center">
         {data.map((ele) => (
           <Col>
             <Cards {...ele} key={ele.id.value} friend={friend} list={list} />

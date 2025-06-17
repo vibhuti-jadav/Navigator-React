@@ -13,7 +13,7 @@ function Cards({id,name, email, picture,list,friend}) {
 
   return (
     <>
-    <Card className='text-center p-2 h-100 bg-secondary shadow-2' >
+    <Card className='text-center p-2 h-100 bg-secondary shadow-2 ' >
       <Card.Img variant="top" className='rounded-circle mx-auto'style={{ width: '200px' }} src={picture.large} />
       <Card.Body>
         <Card.Title>{name.title} { name.first} {name.last}</Card.Title>
